@@ -60,6 +60,14 @@
       true,
       "single"
     ],
+    "semicolon": [
+      true,
+      "never"
+    ],
+    "max-line-length": [
+      true,
+      120
+    ],
     "trailing-comma": false,
     "no-output-on-prefix": true,
     "use-input-property-decorator": true,
