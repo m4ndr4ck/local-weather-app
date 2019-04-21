@@ -54,6 +54,5 @@ export class WeatherService implements IWeatherService {
   }
 }
 export interface IWeatherService {
-  getCurrentWeather(city: string, country: string):
-    Observable<ICurrentWeather>
+  getCurrentWeather(city: string, country: string): Observable<ICurrentWeather>
 }
